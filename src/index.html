@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+  <div>
+  <div id ="title" class="title">
+    <h1>Choropleth Map</h1>
+    </div>
+    <div>
+      <h2 id="description" > Percentage Of adults age 25 or older with Bachelors degree or higher</h2>
+      </div>
+<body>
+    <h2 id='title'>United States Adult Education</h2>
+    <div id='container'>
+        <svg id='canvas'>
+            
+        </svg>
+        <div id='rightSide'>
+            <div id='tooltip'>
+
+            </div>
+            <svg id='legend'>
+                <g>
+                    <rect x="10" y="0" width="40" height="40" fill="tomato"></rect>
+                    <text x="60" y="20" fill="black">Less than 15%</text>
+                </g>
+                <g>
+                    <rect x="10" y="40" width="40" height="40" fill="orange"></rect>
+                    <text x="60" y="60" fill="black">15% than 30%</text>
+                </g>
+                <g>
+                    <rect x="10" y="80" width="40" height="40" fill="lightgreen"></rect>
+                    <text x="60" y="100" fill="black">30% to 45%</text>
+                </g>
+                <g>
+                    <rect x="10" y="120" width="40" height="40" fill="limegreen"></rect>
+                    <text x="60" y="140" fill="black">More than 45%</text>
+                </g>
+            </svg>
+            <div id='description'>Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014). Source: <a href='https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx'>USDA Economic Research Service</a></div>
+
+        </div>
+        
+    </div>
+    
+</body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </div>
+    </html>
